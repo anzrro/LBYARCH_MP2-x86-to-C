@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/LBYARCH_MP2-x86-to-C/.vs/LBYARCH_MP2-x86-to-C.slnx
