@@ -1,6 +1,5 @@
 ; kernel.asm
 ; x86-64 version of the dot product kernel
-; sdot = A[0]*B[0] + A[1]*B[1] + ... + A[n-1]*B[n-1]
 ;
 ; rcx = pointer to A
 ; rdx = pointer to B
