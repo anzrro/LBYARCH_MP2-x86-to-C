@@ -18,8 +18,8 @@ dot_product_asm PROC
     jle done
 
 loop_start:
-    movsd xmm1, qword ptr [rcx + rax*8]   ; xmm1 = A[i]
-    movsd xmm2, qword ptr [rdx + rax*8]   ; xmm2 = B[i]
+    movsd xmm1, qword ptr [rcx + rax*8] ; xmm1 = A[i]
+    movsd xmm2, qword ptr [rdx + rax*8] ; xmm2 = B[i]
 
     mulsd xmm1, xmm2 ; xmm1 = A[i] * B[i]
     addsd xmm0, xmm1 ; sdot = sdot + xmm1
