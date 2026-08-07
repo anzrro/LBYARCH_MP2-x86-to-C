@@ -19,8 +19,11 @@
 
 *sdot values matched exactly between C and ASM for all three sizes (25653471.679999, 410621188.039940, and 6568514807.480904 respectively), confirmed via the epsilon-based correctness check in `main.c`.*
 
-### Screenshot (Program Output with Correctness Check)
-![Console Output Screenshot](results.jpg)
+### Screenshot Debug (Program Output with Correctness Check)
+![Console Output Screenshot](debug.jpg)
+
+### Screenshot Release (Program Output with Correctness Check)
+![Console Output Screenshot](release.jpg)
 
 ## Comparative Analysis
 
