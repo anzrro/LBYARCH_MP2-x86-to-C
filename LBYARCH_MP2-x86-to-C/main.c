@@ -102,16 +102,16 @@ int main(void) {
 
         int correct = (diff <= epsilon);
 
-        printf("  [C]   sdot = %.6f   avg time = %.6f ms\n", sdot_c, avgTime_c);
-        printf("  [ASM] sdot = %.6f   avg time = %.6f ms\n", sdot_asm, avgTime_asm);
-        printf("  Correctness check (ASM vs C): %s\n", correct ? "PASS" : "FAIL");
-        printf("  Speedup (C time / ASM time): %.2fx\n", avgTime_c / avgTime_asm);
+        printf("[C] sdot = %.6f | avg time = %.6f ms\n", sdot_c, avgTime_c);
+        printf("[ASM] sdot = %.6f | avg time = %.6f ms\n", sdot_asm, avgTime_asm);
+        printf("Correctness check (ASM vs C): %s\n", correct ? "PASS" : "FAIL");
+        printf("Speedup (C time / ASM time): %.2fx\n", avgTime_c / avgTime_asm);
         printf("\n");
 
         free(A);
         free(B);
     }
 
-    printf("===== Done =====\n");
+    printf("END -------------------------\n");
     return 0;
 }
